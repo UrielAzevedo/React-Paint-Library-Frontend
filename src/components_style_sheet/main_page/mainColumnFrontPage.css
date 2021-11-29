@@ -1,0 +1,9 @@
+.mainColumn{
+    grid-column-start: 2;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    background-image: url("../components_imgs/van_gog_almod_1280x1011.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,7 @@
+.rowContainer{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 1/3fr;
+}

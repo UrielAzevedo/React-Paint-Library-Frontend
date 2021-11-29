@@ -1,0 +1,28 @@
+.dotMenu{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0px;
+    width: 10px;
+    display: flex;
+    text-decoration: bold;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    transition: 0.2s;
+}
+
+.optionsMenu{
+    height: 30px;
+    width: 30px;
+    height: 50px;
+    border: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+    position: relative;
+    transform: translate(5px,-9px);
+    cursor: pointer;
+    user-select: none;
+}

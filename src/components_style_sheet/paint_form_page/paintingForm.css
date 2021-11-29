@@ -1,0 +1,100 @@
+.dataContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+    width: 100%;
+}
+
+.formContainer{
+    height: 100%;
+    width: 100%;
+}
+
+.tittleContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30%;
+    width: 100%;
+    user-select: none;
+}
+
+.pictureMinuatureContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+.picturePreview{
+    height: 100%;
+    width: 100%;
+    border-image: none;
+}
+
+.atributesContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+}
+
+.imputData{
+    width: 55%;
+    border-style: none;
+    box-shadow: 10px;
+    box-sizing: border-box;
+    background-color: transparent;
+    z-index: 1;
+	border-bottom: 2px solid #eee;
+    color: white;
+}
+
+.imputData::file-selector-button{
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+
+.imputData:focus{
+    border-bottom-color:black;
+}
+
+.labelContainer{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    width: 100%;
+    user-select: none;
+    margin: 10px;
+    /* align-items: center; */
+}
+
+.buttonLabelContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    user-select: none;
+    font-weight: bold;
+}
+
+.formTittle{
+    font-style: bold;
+    font-size: 40px;
+    height: 45px;
+    color: brown;
+    position: relative;
+    height: 374;
+    width: 200;
+}
+
+.submitButton{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}

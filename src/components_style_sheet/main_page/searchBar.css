@@ -1,0 +1,20 @@
+#mainQuery{
+    height: 25px;
+    width: 240px;
+}
+
+input{
+    text-align:center;
+    user-select: none;
+    background-color: rgba(0, 0, 0, .5);
+    border: solid 1px black;
+}
+
+input:focus{
+    outline-width: 0;
+}
+
+input:focus::placeholder {
+    color: transparent;
+    border-style: none;
+}

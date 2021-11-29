@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+html{
+    font-family: 'Oswald';
+    height:100%;
+}
+
+body > #root{
+    margin: 0px;
+    background-color: #262626;
+    display: grid;
+    grid-template-columns: [first] 1fr [second] 2fr [third] 1fr;
+    grid-template-rows: [firstRow] 100px [secondRow] 1fr [ThirddRow] 1fr [fourthRow] 1fr;
+    /* grid-template-rows: repeat(100px, 1fr, 1fr); */
+    height: 100vh;
+    width: 100vw;
+    height:100%;
+}
+
+body{
+    background-repeat: no-repeat;
+    margin: 0px;
+    border: 0px;
+    height:100%;
+}

@@ -1,0 +1,24 @@
+.pageContainer{
+    grid-column-start: 2;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    height: 100%;
+    width: 100%;
+    background-image: url("../components_imgs/pietro_rotari_girl_with_a_book.jpg");
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.centralizingContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 85%;
+    width: 70%;
+    background-color: rgba(89, 89, 89, 0.1);
+    transform: translateX(-9.5%);
+}

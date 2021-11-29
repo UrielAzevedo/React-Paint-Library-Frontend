@@ -1,0 +1,55 @@
+.pageContainerAllPaintings{
+    grid-column-start: 2;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    height: 100%;
+    width: 100%;
+    background: #ff7e5f;
+    background: -webkit-linear-gradient(to right, #feb47b, #ff7e5f);
+    background: linear-gradient(to right, #feb47b, #ff7e5f);
+    /* background-image: url("../components_imgs/511b2be83f2fc37b61e6c5acfeb4fed2.jpg"); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-x: hidden;
+}
+
+.pageContainerAllPaintings::-webkit-scrollbar-track
+{
+	box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.pageContainerAllPaintings::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+.pageContainerAllPaintings::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
+}
+
+.divStyle{
+    height: 30;
+    margin: 6px;
+    padding: 8;
+}
+
+.rightColumn{
+    grid-column-start: 1;
+    background-color: blueviolet;
+}
+
+.leftColumn{
+    grid-column-start: 3;
+    background-color: blueviolet;
+}

@@ -1,0 +1,62 @@
+.infinite-scroll-component__outerdiv{
+    width: 100%;
+}
+
+.displayContainer{
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+}
+
+.rowContainer{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 1/3fr;
+    overflow: hidden;
+}
+
+.displayContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    
+}
+
+.displayContainer:hover{
+    transition: 0.2s;
+    transform: scale(1.1);
+}
+
+.imgContainer{
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+    
+}
+
+.img{
+    height: 100%;
+    width: 100%;
+    border-image: none;
+}
+
+.paintTittleContainer{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

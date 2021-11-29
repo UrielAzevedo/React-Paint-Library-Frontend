@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body{
+    background-color: black;
+}
+
+.paintDisplayContainer{
+    grid-column-start: 2;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background: #ff7e5f;
+    background: -webkit-linear-gradient(to right, #feb47b, #ff7e5f);
+    background: linear-gradient(to right, #feb47b, #ff7e5f);
+}
+
+.paint-tittle-container{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    /* border: black solid 1px; */
+}
+
+.info-data-container{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    overflow-x: scroll;
+    overflow-x: hidden;
+}
+
+.img-container{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    height: 50%;
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+.paint-img{
+    width: 100%;
+    height: 100%;
+}
+
+.year-container{
+    height: 40px;
+    width: 80%;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: black solid 1px; */
+}
+
+.year-tittle{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.year-content-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.genre-container{
+    height: 40px;
+    width: 80%;
+    margin: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* border: black solid 1px; */
+}
+
+.genre-tittle{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.genre-content-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.author-container{
+    height: 40px;
+    width: 80%;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    /* border: solid 1px black; */
+}
+
+.author-tittle{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.author-content-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.editButton{
+    border: none;
+    text-decoration: none;
+    font-size: 30px;
+    height: 35px;
+    width: 35px;
+    margin: 10px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+}
+
+.delete-button{
+    display: flex;
+    height: 35px;
+    width: 35px;
+    margin: 10px;
+    margin-left: 20px;
+    border: none;
+    text-decoration: none;
+    background-image: url('../components_imgs/trash-bin-icon.png');
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 2;
+
+}
+
+.buttonContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.info-data-container-input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: transparent;
+    box-shadow: none;
+    color: black;
+    font-style: bold;
+    font-size: 15px;
+}
+
+::placeholder { /* Most modern browsers support this now. */
+    color: black;
+ }
