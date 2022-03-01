@@ -58,6 +58,11 @@ const PaintingForm = () => {
         // setTimeout(() => {
         //     window.location.reload(true)
         // }, 2000)
+        setImgPrev({ file: "" })
+        setName("")
+        setAuthor("")
+        setGenre("")
+        setYear("")
     }
 
     return (
