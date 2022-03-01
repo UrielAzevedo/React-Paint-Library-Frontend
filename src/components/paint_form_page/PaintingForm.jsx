@@ -53,11 +53,11 @@ const PaintingForm = () => {
         }
 
         fetch('https://react-paint-library-backend.herokuapp.com/', postQuery)
-        .catch((err) => console.log(err))
+        .catch(err => console.log(err))
         
         setTimeout(() => {
             window.location.reload(true)
-        }, 500)
+        }, 2000)
     }
 
     return (
